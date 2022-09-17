@@ -1,0 +1,61 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 100%;
+  background: #ffffff;
+  overflow: hidden;
+  min-width: 0;
+  border-radius: 10px;
+  padding: 24px 8px;
+  border: 1px solid #0000000d;
+}
+.color {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  max-width: 100%;
+  left: 0px;
+  top: 0px;
+  background: #e5e5e5;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.colorcolor_blue {
+  background: var(--token-I651Myd9-);
+}
+.colorcolor_black {
+  background: #000000;
+}
+.colorcolor_purple {
+  background: #5551ff;
+}
+.freeBox__dRDu {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.slotTargetChildren {
+  text-align: center;
+}
+.freeBox__zHlux {
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  display: none;
+}
+.svg___0HUfD {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
