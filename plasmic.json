@@ -521,19 +521,6 @@
       "cssFilePath": "plasmic/pro_layout_panel_landing_pgae/plasmic_pro_layout_panel_landing_pgae.module.css",
       "components": [
         {
-          "id": "PGLmNK8F9ob8KH",
-          "name": "Home",
-          "type": "managed",
-          "projectId": "qDNA17RfdgsM73kkELPPxa",
-          "renderModuleFilePath": "plasmic/pro_layout_panel_landing_pgae/PlasmicHome.tsx",
-          "importSpec": {
-            "modulePath": "../pages/plp.tsx"
-          },
-          "cssFilePath": "plasmic/pro_layout_panel_landing_pgae/PlasmicHome.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "gCP9N_nn5MCbJS",
           "name": "Header",
           "type": "managed",
@@ -805,6 +792,19 @@
             "modulePath": "../pages/new.tsx"
           },
           "cssFilePath": "plasmic/pro_layout_panel_landing_pgae/PlasmicNewPage2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "PGLmNK8F9ob8KH",
+          "name": "ProLayoutPanel",
+          "type": "managed",
+          "projectId": "qDNA17RfdgsM73kkELPPxa",
+          "renderModuleFilePath": "plasmic/pro_layout_panel_landing_pgae/PlasmicProLayoutPanel.tsx",
+          "importSpec": {
+            "modulePath": "../pages/plp.tsx"
+          },
+          "cssFilePath": "plasmic/pro_layout_panel_landing_pgae/PlasmicProLayoutPanel.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
