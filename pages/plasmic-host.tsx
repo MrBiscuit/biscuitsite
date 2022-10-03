@@ -1,4 +1,4 @@
-import { RegisterChakra } from "./registerChakra";
+import { RegisterChakra } from "../helper/registerChakra";
 import { ChakraProvider } from "@chakra-ui/react";
 import { PlasmicCanvasHost } from "@plasmicapp/host";
 import { registerComponent } from "@plasmicapp/host";
@@ -11,6 +11,7 @@ RegisterChakra();
 registerComponent(CountUp, {
   name: "CountUp",
   importPath: "react-countup",
+  isDefaultExport:true,
   props: {
     start: {
       type: "number",
@@ -94,7 +95,7 @@ registerComponent(Typewriter, {
       type: "number",
       defaultValue: 1000,
     },
-    cursory: {
+    cursor: {
       type: "boolean",
       defaultValue: true,
     },

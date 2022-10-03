@@ -2496,6 +2496,7 @@ registerComponent(LoremIpsum, {
 registerComponent(SuperEllipse,{
   name: "SuperEllipse",
   importPath:"react-superellipse",
+  isDefaultExport:true,
   props:{
     r2:{
       type:"number",
